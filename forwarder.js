@@ -1,3 +1,4 @@
+require('dotenv').config()
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 // Send beacon information to New Relic Events Endpoint
@@ -45,7 +46,7 @@ exports.initialise = function () {
     } catch (e) {
       console.log("found an error");
       console.log(e);
-      callback(false, byteCount(data));
+      callback(false, e);
     }
   };
 };

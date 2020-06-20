@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "boomcatch": "^3.2.5",
+    "dotenv": "^8.2.0",
     "useragent": "^2.3.0",
     "xmlhttprequest": "^1.8.0"
   }
